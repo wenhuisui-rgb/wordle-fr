@@ -1,0 +1,44 @@
+:root {
+  font-family: 'Avenir Next', Avenir, 'Trebuchet MS', sans-serif;
+  color: #172f32;
+  background: #f3f5f0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  --ink: #172f32;
+  --muted: #617173;
+  --paper: #fbfcf8;
+  --line: #dce4de;
+  --green: #237b57;
+  --green-dark: #15583d;
+  --green-soft: #d9eee2;
+  --yellow: #b77813;
+  --yellow-soft: #f7e7b9;
+  --gray: #657271;
+  --gray-soft: #e2e7e4;
+  --coral: #d15e47;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: radial-gradient(#cfd9d2 0.65px, transparent 0.65px);
+  background-size: 18px 18px;
+}
+
+button {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #e07557;
+  outline-offset: 3px;
+}
